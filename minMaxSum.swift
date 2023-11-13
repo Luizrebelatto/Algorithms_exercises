@@ -1,6 +1,6 @@
 func miniMaxSum(arr: [Int]) -> Void {
     var higher = 0;
-    var lower = 99999
+    var lower = arr[0]
     var sum = 0
     for value in arr {
         if value > higher {
